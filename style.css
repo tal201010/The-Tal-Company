@@ -1,0 +1,85 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    direction: rtl;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    float: right;
+    display: flex;
+}
+
+.img1 {
+    position: absolute;
+    top: 65%;
+    left: 85%;
+}
+
+.img2 {
+    position: absolute;
+    top: 38%;
+    left: 85%;
+}
+
+.img3 {
+    position: absolute;
+    left: 85%;
+}
+
+.box {
+    width: 500px;
+}
+
+.text_input {
+    width: 300px;
+    border: solid rgb(141, 226, 207) 3px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.form1 {
+    margin-right: 500px;
+    direction: rtl;
+}
+
+.label {
+    width: 500px;
+}
+
+.info {
+    text-align: center;
+    direction: rtl;
+}
+
+#privacy {
+    margin-left: 300px;
+}
+
+#submit {
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    border: 3px solid rgb(141, 226, 207);
+    border-radius: 5px;
+    background-color: rgb(141, 226, 207);
+}
+
+#submit:hover {
+    background-color: white;
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+
+.project_img {
+    height: 300px;
+    position: absolute;
+    margin-top: 250px;
+    width: 380px;
+}
